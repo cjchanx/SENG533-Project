@@ -17,8 +17,8 @@ export default function () {
 
     const headers = {
         'apikey': apiKey,
-	'Authorization': `Admin ${anonKey}`,
-	'Content-Type': 'application/json'
+	    'Authorization': `Admin ${anonKey}`,
+	    'Content-Type': 'application/json'
 	};
 
 	const data = {item: 1};
